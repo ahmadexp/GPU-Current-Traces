@@ -26,9 +26,10 @@ Here are the outputs after running the models compiled in a table:
 | deepseek-r1:70b | 8m40.502768663s | 18.373205ms | 9 token(s) | 1.413s | 6.37 tokens/s | 1320 token(s) | 8m39.069s | 2.54 tokens/s |
 | hermes3:70b | 3m46.141651482s | 27.834305ms | 14 token(s) | 1.743s | 8.03 tokens/s | 650 token(s) | 3m44.368s | 2.90 tokens/s |
 | llama2:70b | 4m42.232985737s | 18.672521ms | 27 token(s) | 3.014s | 8.96 tokens/s | 871 token(s) | 4m39.199s | 3.12 tokens/s |
-
-| llama3.1:70b |
+| llama3.1:70b | 4m18.163423664s | 28.734418ms | 16 token(s) | 2.188s | 7.31 tokens/s | 658 token(s) | 4m15.945s | 2.57 tokens/s |
 | llama3.3:70b |
+
+
 | meditron:70b |
 | orca-mini:70b |
 | reflection:70b |
