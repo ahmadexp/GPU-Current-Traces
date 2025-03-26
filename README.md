@@ -1,6 +1,7 @@
 ## GPU Current Traces for Different Workloads
 
 Here, you can find electric-current traces taken using a hall-based CT from the 12v PCIe power cable feeding the RTX4090 while different LLM models are running using Ollama.
+In addition, the switch --verbose was used on Ollama to show TPS and other information related to the runtime of the models:
 Here is a list of the models:
 
 * deepseek-r1_70b
@@ -15,6 +16,23 @@ Here is a list of the models:
 * tulu3_70b
 
 The workload has been the following questions: Write me an essay about planet earth.
+
+## Results
+
+Here are the outputs after running the models:
+
+# deepseek-r1_70b
+# hermes3_70b
+# llama2_70b
+# llama3_10b
+# llama3_30b
+# meditron_70b
+# orca-mini_70b
+# reflection_70b
+# stable-beluga_70b
+# tulu3_70b
+
+## The setup
 
 Here is how the current measurement setup looks:
 
