@@ -19,18 +19,14 @@ The workload has been the following questions: Write me an essay about planet ea
 
 ## Results
 
-Here are the outputs after running the models:
+Here are the outputs after running the models compiled in a table:
 
-# deepseek-r1_70b
-total duration:       8m40.502768663s
-load duration:        18.373205ms
-prompt eval count:    9 token(s)
-prompt eval duration: 1.413s
-prompt eval rate:     6.37 tokens/s
-eval count:           1320 token(s)
-eval duration:        8m39.069s
-eval rate:            2.54 tokens/s
-# hermes3_70b
+| Model | Total duration | Load duration | Prompt eval count | Prompt eval duration | prompt eval rate | Eval count | eval duration | Eval rate |
+|-------|----------------|---------------|-------------------|----------------------|------------------|------------|---------------|-----------|
+| deepseek-r1_70b | 8m40.502768663s | 18.373205ms | 9 token(s) | 1.413s | 6.37 tokens/s | 1320 token(s) | 8m39.069s | 2.54 tokens/s |
+| hermes3_70b | 3m46.141651482s | 27.834305ms | 14 token(s) | 1.743s | 8.03 tokens/s | 650 token(s) | 3m44.368s | 2.90 tokens/s |
+
+
 # llama2_70b
 # llama3_10b
 # llama3_30b
