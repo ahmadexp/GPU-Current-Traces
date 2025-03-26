@@ -35,7 +35,7 @@ Here are the outputs after running the models compiled in a table:
 | stable-beluga:70b |
 | tulu3:70b |
 
-## The setup
+## Method
 
 Here is how the current measurement setup looks:
 
