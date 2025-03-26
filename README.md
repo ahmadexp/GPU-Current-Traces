@@ -22,7 +22,14 @@ The workload has been the following questions: Write me an essay about planet ea
 Here are the outputs after running the models:
 
 # deepseek-r1_70b
-
+total duration:       8m40.502768663s
+load duration:        18.373205ms
+prompt eval count:    9 token(s)
+prompt eval duration: 1.413s
+prompt eval rate:     6.37 tokens/s
+eval count:           1320 token(s)
+eval duration:        8m39.069s
+eval rate:            2.54 tokens/s
 # hermes3_70b
 # llama2_70b
 # llama3_10b
