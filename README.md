@@ -27,14 +27,12 @@ Here are the outputs after running the models compiled in a table:
 | hermes3:70b | 3m46.141651482s | 27.834305ms | 14 token(s) | 1.743s | 8.03 tokens/s | 650 token(s) | 3m44.368s | 2.90 tokens/s |
 | llama2:70b | 4m42.232985737s | 18.672521ms | 27 token(s) | 3.014s | 8.96 tokens/s | 871 token(s) | 4m39.199s | 3.12 tokens/s |
 | llama3.1:70b | 4m18.163423664s | 28.734418ms | 16 token(s) | 2.188s | 7.31 tokens/s | 658 token(s) | 4m15.945s | 2.57 tokens/s |
-| llama3.3:70b |
-
-
-| meditron:70b |
-| orca-mini:70b |
-| reflection:70b |
-| stable-beluga:70b |
-| tulu3:70b |
+| llama3.3:70b | 4m18.163423664s | 28.734418ms | 16 token(s) | 2.188s | 7.31 tokens/s | 658 token(s) | 4m15.945s | 2.57 tokens/s |
+| meditron:70b | 33.54856318s | 21.475748ms | 83 token(s) | 2.27s | 36.56 tokens/s | 95 token(s) | 31.203s | 3.04 tokens/s |
+| orca-mini:70b | 4m1.574150909s | 21.28262ms | 49 token(s) | 2.251s | 21.77 tokens/s | 746 token(s) | 3m59.25s | 3.12 tokens/s |
+| reflection:70b | 7m18.949264404s | 31.516639ms | 80 token(s) | 2.452s | 32.63 tokens/s | 1248 token(s) | 7m15.994s | 2.86 tokens/s |
+| stable-beluga:70b | 3m49.969723198s | 16.936036ms | 43 token(s) | 1.767s | 24.34 tokens/s | 714 token(s) | 3m48.136s | 3.13 tokens/s |
+| tulu3:70b | 5m11.430074527s | 36.992408ms | 44 token(s) | 2.541s | 17.32 tokens/s | 789 token(s) | 5m8.322s | 2.56 tokens/s |
 
 ## Method
 
