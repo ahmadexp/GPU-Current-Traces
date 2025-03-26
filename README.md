@@ -4,24 +4,15 @@ Here, you can find electric-current traces taken using a hall-based CT from the 
 Here is a list of the models:
 
 * deepseek-r1_70b
-
-hermes3_70b
-
-llama2_70b
-
-llama3_10b
-
-llama3_30b
-
-meditron_70b
-
-orca-mini_70b
-
-reflection_70b
-
-stable-beluga_70b
-
-tulu3_70b
+* hermes3_70b
+* llama2_70b
+* llama3_10b
+* llama3_30b
+* meditron_70b
+* orca-mini_70b
+* reflection_70b
+* stable-beluga_70b
+* tulu3_70b
 
 The workload has been the following questions: Write me an essay about planet earth.
 
