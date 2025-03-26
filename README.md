@@ -22,6 +22,7 @@ The workload has been the following questions: Write me an essay about planet ea
 Here are the outputs after running the models:
 
 # deepseek-r1_70b
+
 # hermes3_70b
 # llama2_70b
 # llama3_10b
@@ -42,7 +43,23 @@ and here is the electric current transducer (DC Current Transformer Coil HSTS016
 
 ![41dg5MzczcL _SX522_](https://github.com/user-attachments/assets/77277676-6b94-4121-b702-d6f53dfc7e86)
 
-And here, the Arduino is used to measure the analog output from the electric current transducer:
+Here are the specs:
+
+Type: DC Transformer
+
+Model: HSTS016L-F
+
+Rated input: ±50A
+
+Rated output: 2.5±0.625V
+
+Accuracy: 1%
+
+Dielectric strength:2,5KV 50Hz 1min
+
+This transducer can be purchased of [Amazon](https://www.amazon.com/dp/B0CQ4MLK5B?ref=ppx_yo2ov_dt_b_fed_asin_title)
+
+Here is a picture of the Arduino used to measure the analog output from the electric current transducer:
 
 <img width="633" alt="Screenshot 2025-03-26 at 4 44 07 PM" src="https://github.com/user-attachments/assets/d15a2c3c-5e80-420e-b929-d9826e246526" />
 
