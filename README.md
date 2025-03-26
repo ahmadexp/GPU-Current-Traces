@@ -44,3 +44,9 @@ void loop() {
 }
 ```
 
+and here is the bash script used to log the serial output from the ttyACM0 (Arduino's serial port):
+
+```
+$ (stty raw; cat > table_name.csv) < /dev/ttyACM0
+```
+
