@@ -424,6 +424,84 @@ eval count:           658 token(s)
 eval duration:        4m15.945s
 eval rate:            2.57 tokens/s
 >>>
+user@NUC14E:~$ ollama run llama3.3:70b --verbose
+>>> write an essay about planet earth
+Planet Earth: The Jewel of the Universe
+
+In the vast expanse of the universe, there exists a planet that is teeming
+with life, vibrant in color, and dynamic in its geological and atmospheric
+processes. This planet is none other than Earth, our home and the only
+known haven for life beyond our solar system. Located in the outer reaches
+of the Milky Way galaxy, Earth is a terrestrial paradise, uniquely
+positioned to support an astonishing array of ecosystems, from the
+simplest microorganisms to complex human societies.
+
+Geologically, Earth is a marvel. Its crust is composed of several large
+plates that float on the more fluid mantle beneath, a process known as
+plate tectonics. This continuous movement leads to the formation of
+mountains, volcanoes, and earthquakes, shaping the planet's surface over
+millions of years. The interaction between these geological forces and the
+atmosphere has created diverse landscapes: towering mountain ranges like
+the Himalayas, deep ocean trenches such as the Mariana Trench, and
+expansive plains that stretch as far as the eye can see.
+
+One of Earth's most striking features is its atmosphere, a delicate
+balance of gases that protects life from harmful solar radiation and
+maintains a stable climate. The atmosphere is composed primarily of
+nitrogen and oxygen, with smaller amounts of other gases like carbon
+dioxide and water vapor. This gaseous envelope not only supports the
+respiratory needs of living organisms but also plays a crucial role in
+weather patterns and global temperature regulation. The greenhouse effect,
+for instance, traps heat from the sun, ensuring that Earth's surface
+remains warm enough to support liquid water, a prerequisite for life as we
+know it.
+
+Water is another vital component of our planet, covering over 70% of its
+surface. Oceans, lakes, rivers, and groundwater systems are
+interconnected, forming the hydrologic cycle that circulates water between
+the atmosphere, land, and sea. This process is essential for climate
+regulation, weather patterns, and the sustenance of all life forms. From
+the massive blue whales that inhabit the oceans to the tiny plankton that
+form the base of aquatic food chains, water bodies are teeming with
+biodiversity.
+
+Earth's biodiversity is perhaps its most remarkable attribute. The planet
+supports an estimated 8.7 million species, ranging from bacteria and
+archaea to plants and animals. Forests, grasslands, deserts, and tundras
+each host unique communities of organisms adapted to their specific
+environments. This biodiversity not only enriches the planet aesthetically
+but also provides crucial ecosystem services such as air and water
+purification, soil formation, and climate regulation.
+
+Despite its natural wonders and the critical role it plays in supporting
+life, Earth faces numerous challenges. Human activities, particularly
+since the Industrial Revolution, have led to significant environmental
+degradation. Climate change, driven by the increase in greenhouse gases
+due to fossil fuel burning and deforestation, poses a major threat to
+ecosystems and human societies alike. Pollution of air, water, and land;
+loss of biodiversity through habitat destruction and species extinction;
+and the depletion of natural resources are other pressing issues that
+demand immediate attention.
+
+In conclusion, Planet Earth is a jewel of the universe, a planet of
+breathtaking beauty and profound importance for life. Its unique
+combination of geological processes, atmospheric conditions, and
+biological diversity makes it an irreplaceable home for humanity and
+countless other species. As we navigate the complexities of our
+relationship with the planet, it is crucial that we adopt sustainable
+practices, reduce our ecological footprint, and work towards preserving
+Earth's natural wonders for future generations. The fate of life on Earth
+depends on our ability to protect and cherish this extraordinary planet.
+
+total duration:       4m42.135002743s
+load duration:        36.325539ms
+prompt eval count:    16 token(s)
+prompt eval duration: 2.345s
+prompt eval rate:     6.82 tokens/s
+eval count:           718 token(s)
+eval duration:        4m39.752s
+eval rate:            2.57 tokens/s
+>>> Send a message (/? for help)
 user@NUC14E:~$ ollama run meditron:70b --verbose
 >>> write an essay about planet earth
 Planet Earth is a unique place in the universe, and it is home to an
