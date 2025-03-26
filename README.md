@@ -4,16 +4,16 @@ Here, you can find electric-current traces taken using a hall-based CT from the 
 In addition, the switch --verbose was used on Ollama to show TPS and other information related to the runtime of the models:
 Here is a list of the models:
 
-* deepseek-r1_70b
-* hermes3_70b
-* llama2_70b
-* llama3_10b
-* llama3_30b
-* meditron_70b
-* orca-mini_70b
-* reflection_70b
-* stable-beluga_70b
-* tulu3_70b
+* deepseek-r1:70b
+* hermes3:70b
+* llama2:70b
+* llama3.1:70b
+* llama3.3:70b
+* meditron:70b
+* orca-mini:70b
+* reflection:70b
+* stable-beluga:70b
+* tulu3:70b
 
 The workload has been the following questions: Write me an essay about planet earth.
 
@@ -23,18 +23,17 @@ Here are the outputs after running the models compiled in a table:
 
 | Model | Total duration | Load duration | Prompt eval count | Prompt eval duration | prompt eval rate | Eval count | eval duration | Eval rate |
 |-------|----------------|---------------|-------------------|----------------------|------------------|------------|---------------|-----------|
-| deepseek-r1_70b | 8m40.502768663s | 18.373205ms | 9 token(s) | 1.413s | 6.37 tokens/s | 1320 token(s) | 8m39.069s | 2.54 tokens/s |
-| hermes3_70b | 3m46.141651482s | 27.834305ms | 14 token(s) | 1.743s | 8.03 tokens/s | 650 token(s) | 3m44.368s | 2.90 tokens/s |
+| deepseek-r1:70b | 8m40.502768663s | 18.373205ms | 9 token(s) | 1.413s | 6.37 tokens/s | 1320 token(s) | 8m39.069s | 2.54 tokens/s |
+| hermes3:70b | 3m46.141651482s | 27.834305ms | 14 token(s) | 1.743s | 8.03 tokens/s | 650 token(s) | 3m44.368s | 2.90 tokens/s |
+| llama2:70b | 4m42.232985737s | 18.672521ms | 27 token(s) | 3.014s | 8.96 tokens/s | 871 token(s) | 4m39.199s | 3.12 tokens/s |
 
-
-# llama2_70b
-# llama3_10b
-# llama3_30b
-# meditron_70b
-# orca-mini_70b
-# reflection_70b
-# stable-beluga_70b
-# tulu3_70b
+| llama3.1:70b |
+| llama3.3:70b |
+| meditron:70b |
+| orca-mini:70b |
+| reflection:70b |
+| stable-beluga:70b |
+| tulu3:70b |
 
 ## The setup
 
