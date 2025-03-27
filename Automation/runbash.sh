@@ -1,7 +1,7 @@
 #! /bin/bash
 
-nohup ./ttylog.sh logs/deepseek.csv &
+modelname=deepseek-r1
 
-ollama run deepseek-r1 "Explain the basics of machine learning." --verbose | tee logs/deepseek.log
-
+nohup ./ttylog.sh logs/$modelname.csv &
+ollama run $modelname "Explain the basics of machine learning." --verbose | tee logs/$modelname.log
 pkill ttylog.sh
